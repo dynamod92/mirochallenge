@@ -1,0 +1,54 @@
+
+@font-face {
+	font-family: "Quincy";
+    src: url("../fonts/quincy/quincy/QuincyCF-Regular.otf") format("opentype");
+}
+body {
+	background-color: white;
+}
+.big-box {
+	height:800px;
+}
+
+.banner-content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.banner{
+	background-image: url("../img/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	display: inline-block;
+	width: 100%;
+}
+.about{
+	padding: 40px;
+	background-color: white;
+	height: 500px;
+	font-family: "Quincy";
+}
+.food-menu{
+	background-image: url("../img/menu-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	display: inline-block;
+	width: 100%;
+}
+.reservations{
+	height: 800px;
+	background-color: white;
+
+}
+.page-footer{
+	height: 400px;
+	background-color: #252525;
+	color: white;
+	text-align: center;
+}
+.footer {
+	border-bottom: 1px white solid;
+	padding: 20px;
+}
