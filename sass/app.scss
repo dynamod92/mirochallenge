@@ -6,6 +6,7 @@
 body {
 	background-color: white;
 	font-family: "Source Sans Pro";
+	font-weight: 300;
 }
 .banner{
 	background-image: url("../img/banner.jpg");
@@ -23,7 +24,7 @@ body {
 .banner-menu {
 	height: 300px;
 	width: 100%;
-	background: rgba(204, 204, 204, 0.5);
+	background: rgba(192, 175, 155, 0.6);
 	position: absolute;
 	top: 500px;
 	text-align: center;
@@ -32,7 +33,7 @@ body {
 
 }
 .about {
-	padding: 50px;
+	padding: 60px;
 	background-color: white;
 	height: 500px;
 
@@ -52,6 +53,7 @@ body {
 	 h1 {
 	 	font-size: 30px;
 	 	color: #7f5f54;
+
 	 }
 }
 .food-menu{
@@ -65,14 +67,19 @@ body {
 .reservations{
 	height: 800px;
 	background-color: white;
+	text-align: center;
 }
 .experience {
-	width: 500px;
-	height: 300px;
-	background: rgba(204,204,204,0.5);
+	width: 700px;
+	height: 200px;
+	background: rgba(192,175,155,0.8);
 	color: white;
 	text-align: center;
 	margin-top: 150px;
+	font-size: 75px;
+	font-family: "quincy";
+	font-style: italic;
+	padding-top: 38px;
 }
 .page-footer{
 	height: 400px;
@@ -85,10 +92,17 @@ body {
 	padding: 20px;
 	padding-bottom: 70px;
 }
-.button {
-	background: (255,255,255,0.1);
+.button1 {
+	background-color: transparent;
 	border: 1px solid white;
+	color: white;
+}
+.button2 {
+	background-color: #C0AF9B;
+	border: none;
+	color: white;
 }
 p {
-	font-size: 15px;
+	font-size: 17px;
+	line-height: 2;
 }
