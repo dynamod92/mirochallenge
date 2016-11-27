@@ -106,3 +106,13 @@ p {
 	font-size: 17px;
 	line-height: 2;
 }
+.nav-expanded {
+	display: inline-block;
+}
+.nav-compressed {
+	display: none;
+}
+.navmenu {
+	list-style: none;
+	font-size:  40px;
+}
