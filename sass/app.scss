@@ -32,6 +32,24 @@ body {
 	color: white;
 
 }
+
+a {
+
+	text-decoration: none;
+	&:link {
+	    color: white;
+	}
+	&:visited {
+	    color: white;
+	}
+	&:hover {
+	    color: white;
+	}
+	&:active {
+	    color: white;
+	}
+}
+
 .about {
 	padding: 60px;
 	background-color: white;
@@ -96,6 +114,14 @@ body {
 	background-color: transparent;
 	border: 1px solid white;
 	color: white;
+	font-size: 30px;
+}
+.button3 {
+	background-color: transparent;
+	border: none;
+	color: white;
+	font-size: 40px;
+
 }
 .button2 {
 	background-color: #C0AF9B;
@@ -108,11 +134,26 @@ p {
 }
 .nav-expanded {
 	display: inline-block;
+	width: 100%;
+	position: absolute;
+	background: rgba(192, 175, 155, 0.6);
+	height: 800px;
+	padding-top: 80px;
+	top: 0px;
+	left: 0px;
 }
-.nav-compressed {
+.nav-collapsed {
 	display: none;
 }
 .navmenu {
+	text-align: center;
+	color: white;
 	list-style: none;
 	font-size:  40px;
+}
+.show {
+	display: inline-block;
+}
+.hide {
+	display: none;
 }
